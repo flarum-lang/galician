@@ -1,24 +1,17 @@
 {
-	"name": "flarum-lang/xxish",
+	"name": "flarum-lang/galician",
 	"type": "flarum-extension",
-	"description": "Xxish language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/xxish",
+	"description": "Galician language pack for Flarum.",
+	"homepage": "https://github.com/flarum-lang/galician",
 	"keywords": [
 		"locale",
 		"flarum",
-		"xx-locale"
+		"gl-locale"
 	],
 	"license": "MIT",
-	"authors": [
-		{
-			"name": "Your Name",
-			"email": "your@email.net",
-			"homepage": "https://yourhomepage.com/"
-		}
-	],
 	"support": {
-		"issues": "https://github.com/flarum-lang/xxish/issues",
-		"source": "https://github.com/flarum-lang/xxish"
+		"issues": "https://github.com/flarum-lang/galician/issues",
+		"source": "https://github.com/flarum-lang/galician"
 	},
 	"require": {
 		"flarum/core": "^1.5"
@@ -27,7 +20,7 @@
 	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
-			"title": "Xxish",
+			"title": "Galician",
 			"icon": {
 				"image": "icon.svg",
 				"backgroundSize": "cover",
@@ -35,8 +28,8 @@
 			}
 		},
 		"flarum-locale": {
-			"code": "xx",
-			"title": "Xxish"
+			"code": "gl",
+			"title": "Galician"
 		},
 		"extiverse": {
 			"discuss": ""
