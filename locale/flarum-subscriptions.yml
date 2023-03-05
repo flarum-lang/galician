@@ -16,8 +16,6 @@ flarum-subscriptions:
     notifications:
       new_post_text: '{username} creou un post'
     settings:
-      follow_new_discussions_label: 'Seguir automaticamente as novas conversas'
-      forum_follow_after_reply_label: 'Seguir automaticamente as conversa nas que respondín'
       notify_new_post_label: 'Alguén creou un post nunha conversa que estou seguindo'
     sub_controls:
       follow_button: '=> flarum-subscriptions.ref.follow'

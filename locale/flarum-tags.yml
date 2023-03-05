@@ -33,10 +33,8 @@ flarum-tags:
       title: 'Configuración de etiquetas'
     tags:
       about_tags_text: 'As etiquetas úsanse para categorizar conversas. As etiquetas primarias son como as tradicionais categorías dos foros: solo se poden organizar en xerarquías de dous niveis. As etiquetas secundarias non teñen xerarquía e usanse para micro-categorización.'
-      create_tag_button: '=> flarum-tags.ref.create_tag'
       primary_heading: 'Etiquetas primarias'
       secondary_heading: 'Etiquetas secundarias'
-      settings_button: Opcións
   forum:
     choose_tags:
       choose_primary_placeholder: 'Escolle unha etiqueta primaria|Escolle {count} etiquetas primarias'
@@ -60,6 +58,5 @@ flarum-tags:
   lib:
     deleted_tag_text: Eliminar
   ref:
-    create_tag: 'Crear etiqueta'
     name: Nome
     tags: Etiquetas

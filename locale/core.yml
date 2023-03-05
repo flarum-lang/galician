@@ -4,11 +4,6 @@
 
 core:
   admin:
-    add_extension:
-      developer_text: 'Se eres un desenvolvedor, podes <a>ler a documentación</a> para axudarche a facer as túas propias extensións.'
-      install_text: 'Mentras tanto, podes buscar extensións na <a>web da comunidade Flarum</a> e instalalas manualmente usando Composer.'
-      temporary_text: 'Un dia, non moi lonxe, dende aquí poderás engadir extensións ao teu foro fácilmente. Estamos construindo un ecosistema'
-      title: 'Engadir extensión'
     appearance:
       colored_header_label: 'Cabeceira coloreada'
       colors_heading: Cores
@@ -25,7 +20,6 @@ core:
       favicon_text: 'Upload an image to be displayed as the forum''s shortcut icon.'
       logo_heading: Logo
       logo_text: 'Upload an image to be displayed in place of the forum title.'
-      submit_button: '=> core.ref.save_changes'
     basics:
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Idioma por defecto'
@@ -34,13 +28,9 @@ core:
       forum_title_heading: 'Título do foro'
       home_page_heading: Portada
       home_page_text: 'Escolle a páxina que verán os usuarios por primeira vez cando visiten o teu foro. Se usas un valor personalizado, escribe a ruta relativa á raíz do foro.'
-      saved_message: 'Os teus cambios foron gardados.'
       show_language_selector_label: 'Show language selector'
-      submit_button: '=> core.ref.save_changes'
       welcome_banner_heading: 'Banner de benvida'
       welcome_banner_text: 'Configura o texto que se mostrará no banner na páxina de Todas as conversas. Úsao para darlle a benvida aos invitados ao teu foro.'
-    dashboard:
-      help_link: Axuda
     edit_css:
       customize_text: 'Personaliza a aparencia do teu foro engadindo o teu propio código LESS/CSS que será aplicado encima dos <a>estilos predeterminados</a>.'
       submit_button: '=> core.ref.save_changes'
@@ -61,40 +51,19 @@ core:
       submit_button: '=> core.ref.save_changes'
       title: 'Editar cabeceira personalizada'
     email:
-      account_heading: 'Conta SMTP'
       addresses_heading: Direccións
       driver_label: Driver
-      encryption_label: Cifrado
       from_label: 'Enviado por'
-      heading: '=> core.ref.email'
-      host_label: Host
-      password_label: '=> core.ref.password'
-      port_label: Porto
-      server_heading: 'Servidor SMTP'
-      submit_button: '=> core.ref.save_changes'
-      text: 'Configura as opcións SMTP e direccións empregadas polo foro para enviar emails.'
-      username_label: '=> core.ref.username'
-    extensions:
-      add_button: 'Engadir extension'
-      settings_button: '=> core.ref.settings'
-      uninstall_button: Desinstalar
     header:
       log_out_button: '=> core.ref.log_out'
     loading:
       title: 'Por favor, espera...'
     nav:
       appearance_button: Aparencia
-      appearance_text: 'Personaliza as cores, logos e outras variables do teu foro.'
       basics_button: Básicos
-      basics_text: 'Define o título, idioma e outras configuracións básicas do teu foro.'
       dashboard_button: Dashboard
-      dashboard_text: 'O teu foro dunha ollada.'
       email_button: '=> core.ref.email'
-      email_text: 'Configura as opcións de email do foro.'
-      extensions_button: Extensións
-      extensions_text: 'Engade funcionalidades ao teu foro para axustalo ás túas necesidades.'
       permissions_button: Permisos
-      permissions_text: 'Configura quen pode ver e facer o qué.'
     permissions:
       allow_post_editing_label: 'Permitir editar posts'
       allow_renaming_label: 'Permitir renomear'
@@ -102,7 +71,6 @@ core:
       delete_discussions_forever_label: 'Eliminar conversas para sempre'
       delete_discussions_label: 'Eliminar conversas'
       delete_posts_forever_label: 'Eliminar posts para sempre'
-      edit_and_delete_posts_label: 'Editar e borrar posts'
       global_heading: Global
       moderate_heading: Moderar
       new_group_button: 'Novo grupo'
@@ -112,9 +80,7 @@ core:
       reply_to_discussions_label: 'Responder a conversas'
       sign_up_label: Rexistrarse
       start_discussions_label: 'Comezar conversas'
-      view_discussions_label: 'Ver conversas'
       view_post_ips_label: 'Ver direccións IP dos posts'
-      view_user_list_label: 'Ver lista de usuarios'
     permissions_controls:
       allow_indefinitely_button: Indefinidamente
       allow_some_minutes_button: 'Durante {count} minuto|Durante {count} minutos'
@@ -188,21 +154,8 @@ core:
     discussion_list:
       empty_text: 'Parece que non hai ningunha conversa aqui.'
       load_more_button: '=> core.ref.load_more'
-      mark_as_read_tooltip: 'Marcar como lido'
       replied_text: '{username} respondeu {ago}'
       started_text: '{username} comezou {ago}'
-    edit_user:
-      activate_button: 'Activar usuario'
-      email_heading: '=> core.ref.email'
-      email_label: '=> core.ref.email'
-      groups_heading: Grupos
-      password_heading: '=> core.ref.password'
-      password_label: '=> core.ref.password'
-      set_password_label: 'Nova contrasinal'
-      submit_button: '=> core.ref.save_changes'
-      title: 'Editar usuario'
-      username_heading: '=> core.ref.username'
-      username_label: '=> core.ref.username'
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
@@ -379,12 +332,6 @@ core:
     discussion:
       next_page_button: '=> core.ref.next_page'
       previous_page_button: 'Páxina anterior'
-    error:
-      403_message: 'Non tes permiso para acceder a esta páxina.'
-      404_message: 'A páxina que intentas acceder non existe.'
-      404_return_link: 'Volver a {forum}'
-      500_message: 'Ocorreu un erro intentando cargar esta páxina.'
-      503_message: '{forum} esta en mantemento. Grazas pola túa paciencia!'
     index:
       all_discussions_heading: '=> core.ref.all_discussions'
       next_page_button: '=> core.ref.next_page'

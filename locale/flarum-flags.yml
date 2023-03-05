@@ -29,7 +29,6 @@ flarum-flags:
       title: '=> flarum-flags.ref.flagged_posts'
       tooltip: '=> flarum-flags.ref.flagged_posts'
     post:
-      dismiss_flag_tooltip: 'Descargar marca'
       flagged_by_text: 'marcado por {username}'
       flagged_by_with_reason_text: '{username} marcouno por {reason}'
     post_controls:
