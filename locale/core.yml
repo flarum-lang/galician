@@ -8,18 +8,13 @@ core:
       colored_header_label: 'Cabeceira coloreada'
       colors_heading: Cores
       colors_text: 'Escolle dúas cores para usar na aparencia do teu foro. O primeiro usarase para resaltar cousas, e o segundo para darlle estilo aos elementos de fondo.'
-      custom_header_heading: 'Custom Header'
-      custom_header_text: 'Add HTML to be displayed at the very top of the page, above Flarum''s own header.'
       custom_styles_heading: 'Estilos personalizados'
       custom_styles_text: 'Personaliza a aparencia do teu foro engadindo o teu propio código LESS/CSS para aplicalo encima dos estilos predeterminados de Flarum,'
       dark_mode_label: 'Modo escuro'
       edit_css_button: 'Editar o CSS personalizado'
       edit_header_button: 'Edit Custom Header'
       enter_hex_message: 'Por favor, introduce a cor en formato hexadecimal.'
-      favicon_heading: Favicon
-      favicon_text: 'Upload an image to be displayed as the forum''s shortcut icon.'
       logo_heading: Logo
-      logo_text: 'Upload an image to be displayed in place of the forum title.'
     basics:
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Idioma por defecto'
@@ -28,7 +23,6 @@ core:
       forum_title_heading: 'Título do foro'
       home_page_heading: Portada
       home_page_text: 'Escolle a páxina que verán os usuarios por primeira vez cando visiten o teu foro. Se usas un valor personalizado, escribe a ruta relativa á raíz do foro.'
-      show_language_selector_label: 'Show language selector'
       welcome_banner_heading: 'Banner de benvida'
       welcome_banner_text: 'Configura o texto que se mostrará no banner na páxina de Todas as conversas. Úsao para darlle a benvida aos invitados ao teu foro.'
     edit_css:
@@ -52,7 +46,6 @@ core:
       title: 'Editar cabeceira personalizada'
     email:
       addresses_heading: Direccións
-      driver_label: Driver
       from_label: 'Enviado por'
     header:
       log_out_button: '=> core.ref.log_out'
@@ -83,7 +76,6 @@ core:
       view_post_ips_label: 'Ver direccións IP dos posts'
     permissions_controls:
       allow_indefinitely_button: Indefinidamente
-      allow_some_minutes_button: 'Durante {count} minuto|Durante {count} minutos'
       allow_ten_minutes_button: 'Durante 10 minutos'
       allow_until_reply_button: 'Ata a próxima resposta'
       everyone_button: 'Todo o mundo'
@@ -214,7 +206,6 @@ core:
       now_link: Agora
       original_post_link: 'Post orixinal'
       unread_text: '{count} non lidos'
-      viewing_text: '{index} de {count} post|{index} de {count} posts'
     post_stream:
       discussion_renamed_old_tooltip: 'O título anterior era: "{old}"'
       discussion_renamed_text: '{username} cambiou o título de {old} a {new}.'
@@ -319,7 +310,6 @@ core:
     save_changes: 'Gardar cambios'
     settings: Configuración
     sign_up: Rexistrarse
-    some_others: '{count} outro|{count} outros'
     start_a_discussion: 'Nova conversa'
     username: 'Nome de usuario'
     write_a_reply: 'Escribir unha resposta...'

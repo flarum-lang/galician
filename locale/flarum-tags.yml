@@ -37,8 +37,6 @@ flarum-tags:
       secondary_heading: 'Etiquetas secundarias'
   forum:
     choose_tags:
-      choose_primary_placeholder: 'Escolle unha etiqueta primaria|Escolle {count} etiquetas primarias'
-      choose_secondary_placeholder: 'Escolle 1 etiqueta máis|Escolle {count} etiquetas máis'
       edit_title: 'Editar as etiquetas de {title}'
       submit_button: '=> core.ref.okay'
       title: 'Escoller as etiquetas para a túa conversa'
@@ -54,7 +52,6 @@ flarum-tags:
       added_and_removed_tags_text: '{username} engadiu {tagsAdded} e eliminou {tagsRemoved}.'
       added_tags_text: '{username} Engadiu {tagsAdded}.'
       removed_tags_text: '{username} eliminou {tagsRemoved}.'
-      tags_text: 'a etiqueta {tags}|as etiquetas {tags}'
   lib:
     deleted_tag_text: Eliminar
   ref:
