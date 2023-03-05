@@ -12,9 +12,7 @@ core:
       custom_styles_text: 'Personaliza a aparencia do teu foro engadindo o teu propio código LESS/CSS para aplicalo encima dos estilos predeterminados de Flarum,'
       dark_mode_label: 'Modo escuro'
       edit_css_button: 'Editar o CSS personalizado'
-      edit_header_button: 'Edit Custom Header'
       enter_hex_message: 'Por favor, introduce a cor en formato hexadecimal.'
-      logo_heading: Logo
     basics:
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Idioma por defecto'
@@ -54,7 +52,6 @@ core:
     nav:
       appearance_button: Aparencia
       basics_button: Básicos
-      dashboard_button: Dashboard
       email_button: '=> core.ref.email'
       permissions_button: Permisos
     permissions:
@@ -64,7 +61,6 @@ core:
       delete_discussions_forever_label: 'Eliminar conversas para sempre'
       delete_discussions_label: 'Eliminar conversas'
       delete_posts_forever_label: 'Eliminar posts para sempre'
-      global_heading: Global
       moderate_heading: Moderar
       new_group_button: 'Novo grupo'
       participate_heading: Participar
@@ -177,7 +173,6 @@ core:
       newest_button: 'As máis novas'
       oldest_button: 'As máis antigas'
       relevance_button: 'As máis relevantes'
-      top_button: Top
     log_in:
       forgot_password_link: 'Esqueciches o contrasinal?'
       invalid_login_message: 'Os teus datos non son correctos.'
@@ -225,7 +220,6 @@ core:
       change_password_button: '=> core.ref.change_password'
       notifications_heading: '=> core.ref.notifications'
       notify_by_email_heading: '=> core.ref.email'
-      notify_by_web_heading: Web
       notify_discussion_renamed_label: 'Alguén renomeou unha conversa que comecei'
       privacy_disclose_online_label: 'Permitir a outros ver cando estou online'
       privacy_heading: Privacidade
@@ -303,7 +297,6 @@ core:
     notifications: Notificacións
     okay: OK
     password: Contrasinal
-    posts: Posts
     rename: Renomear
     reply: Responder
     restore: Restaurar
