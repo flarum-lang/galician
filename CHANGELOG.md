@@ -14,17 +14,17 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`flarum/akismet`](https://github.com/flarum/akismet)
-* [`flarum/approval`](https://github.com/flarum/approval)
-* [`flarum/flags`](https://github.com/flarum/flags)
-* [`flarum/likes`](https://github.com/flarum/likes)
-* [`flarum/lock`](https://github.com/flarum/lock)
-* [`flarum/mentions`](https://github.com/flarum/mentions)
-* [`flarum/pusher`](https://github.com/flarum/pusher)
-* [`flarum/statistics`](https://github.com/flarum/statistics)
-* [`flarum/sticky`](https://github.com/flarum/sticky)
-* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
-* [`flarum/suspend`](https://github.com/flarum/suspend)
-* [`flarum/tags`](https://github.com/flarum/tags)
+* [`flarum/akismet`](https://github.com/flarum/akismet) (42% complete)
+* [`flarum/approval`](https://github.com/flarum/approval) (100% complete)
+* [`flarum/flags`](https://github.com/flarum/flags) (85% complete)
+* [`flarum/likes`](https://github.com/flarum/likes) (60% complete)
+* [`flarum/lock`](https://github.com/flarum/lock) (100% complete)
+* [`flarum/mentions`](https://github.com/flarum/mentions) (43% complete)
+* [`flarum/pusher`](https://github.com/flarum/pusher) (33% complete)
+* [`flarum/statistics`](https://github.com/flarum/statistics) (32% complete)
+* [`flarum/sticky`](https://github.com/flarum/sticky) (77% complete)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions) (80% complete)
+* [`flarum/suspend`](https://github.com/flarum/suspend) (38% complete)
+* [`flarum/tags`](https://github.com/flarum/tags) (56% complete)
 
 
