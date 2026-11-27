@@ -1,24 +1,24 @@
 {
 	"name": "flarum-lang/galician",
+	"description": "Galician Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Galician language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/galician",
 	"keywords": [
-		"locale",
-		"flarum",
-		"gl-locale"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/galician",
 	"license": "MIT",
 	"support": {
 		"issues": "https://github.com/flarum-lang/galician/issues",
+		"forum": "https://discuss.flarum.org/d/40188",
 		"source": "https://github.com/flarum-lang/galician"
 	},
 	"require": {
 		"flarum/core": "^1.5"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
+		"branch-alias": {
+			"dev-master": "1.x-dev"
+		},
 		"flarum-extension": {
 			"title": "Galician",
 			"category": "language",
@@ -30,13 +30,7 @@
 		},
 		"flarum-locale": {
 			"code": "gl",
-			"title": "Galician"
-		},
-		"extiverse": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
+			"title": "Galego"
 		}
 	}
 }
